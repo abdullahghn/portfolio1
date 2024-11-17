@@ -1,2 +1,2 @@
 # portfolio1
-React very basic portfolio app
+A very basic react portfolio app
