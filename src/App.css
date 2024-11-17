@@ -1,0 +1,171 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-color: #0a101e;
+  --bg-color-secondary: #151b2a;
+  --highlight-color: #dbb522;
+  --highlight-color-secondary: #877757;
+  --text1: #fff;
+  --text2: #bbbbbb;
+}
+
+body {
+  background-color: #0a101e
+}
+
+/* HEADER */
+.logo {
+  width: 100px;
+}
+
+header {
+  background-image: url('./assets/header-bg.jpg');
+  height: 700px;
+  background-size: cover;
+  background-position: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+  margin-left: 100px;
+}
+
+.nav-links a {
+  color: var(--text1);
+  text-decoration: none;
+}
+
+.nav-links a:hover {
+  color: var(--highlight-color);
+}
+
+.header-text {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  color: var(--text1);
+  margin-top: 100px;
+}
+
+.highlight {
+  color: var(--highlight-color);
+}
+
+.header-text p {
+  color: var(--text2);
+  margin-top: 30px;
+}
+
+.social-icons {
+  margin-top: 40px;
+}
+
+.social-icons img {
+  height: 30px;
+  margin-right: 10px;
+}
+
+/* ABOUT SECTION */
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.about-section {
+  max-width: 800px;
+  margin: auto;
+  width: 60%;
+  margin-top: 100px;
+}
+
+.section-main-title {
+  color: var(--highlight-color);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-left img {
+  width: 350px;
+}
+
+.about-right h2 {
+  color: var(--text1);
+  margin-bottom: 10px;
+}
+
+.about-right h3 {
+  color: var(--highlight-color-secondary);
+  margin-bottom: 10px;
+}
+
+.about-right p {
+  color: var(--text2);
+  margin-bottom: 20px;
+}
+
+.about-table {
+  color: var(--text2);
+  margin-bottom: 20px;
+}
+
+.about-table td {
+  padding: 0 15px 15px 0;
+}
+
+.btn {
+  background-color: var(--highlight-color);
+  padding: 10px 30px;
+  border-radius: 15px;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: var(--highlight-color-secondary);
+  color: var(--text1);
+}
+
+/* SERVICES SECTION */
+.services-section {
+  max-width: 800px;
+  margin: auto;
+  width: 60%;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.service-box {
+  color: var(--text1);
+  text-align: center;
+  padding: 70px 15px;
+  background-color: var(--bg-color-secondary);
+}
+
+.service-box h4 {
+  margin-bottom: 15px;
+  font-size: 1.3em;
+}
+
+.row {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 20px;
+}
+
+/* FOOTER SECTION */
+footer {
+  background-color: var(--bg-color-secondary);
+  padding: 50px 0;
+  text-align: center;
+  color: var(--text2);
+}
